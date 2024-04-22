@@ -58,7 +58,7 @@ ROOT_URLCONF = 'UPSKPYT002fleemanagementapi.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['tamplates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
